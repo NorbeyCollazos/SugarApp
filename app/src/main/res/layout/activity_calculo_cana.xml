@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1774bf6a"
+    tools:context="proyecto.sugarapp.CalculoCana">
+
+
+    <include layout="@layout/toolbarimagenes"
+        android:id="@+id/tolbarcalcucana">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tolbarcalcucana">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Contenedor del ingreso-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/conteingreso">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mensajecalculo"
+                    android:textColor="#378831"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:id="@+id/parrafo1"
+                    android:textAlignment="center"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/parrafo1"
+                    android:id="@+id/radiogroup">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:onClick="onRadioButtonClicked"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cantikilos"
+                        android:id="@+id/rb_kilos"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="#d4a410" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:onClick="onRadioButtonClicked"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cantiarrobas"
+                        android:id="@+id/rb_arrobas"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="#d4a410" />
+                </RadioGroup>
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contenedor_kilos"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="10dp"
+                    android:layout_below="@+id/radiogroup"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/ingrekilos"
+                        android:id="@+id/etkiloo"
+                        android:textColor="#000"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calcular"
+                        android:textAllCaps="false"
+                        android:id="@+id/btncalkilos"
+                        android:layout_below="@+id/etkiloo"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/limpiar"
+                        android:textAllCaps="false"
+                        android:id="@+id/btnlimpiarkilos"
+                        android:layout_toRightOf="@+id/btncalkilos"
+                        android:layout_below="@+id/etkiloo"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contenedor_arrobas"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/contenedor_kilos"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etarrobas"
+                        android:hint="@string/cantiarr"
+                        android:textColor="#000"
+                        android:textStyle="italic"
+                        android:inputType="number"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calcular"
+                        android:textAllCaps="false"
+                        android:id="@+id/btncalarrobas"
+                        android:layout_below="@+id/etarrobas" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/limpiar"
+                        android:textAllCaps="false"
+                        android:id="@+id/btnlimpiararrobas"
+                        android:layout_below="@+id/etarrobas"
+                        android:layout_toRightOf="@+id/btncalarrobas"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <!--contenedor de resultado -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/conteingreso"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layoutanimado"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="@string/tcanca"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#d4a410"
+                        android:textAlignment="center"
+                        android:id="@+id/texresultado"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvresultkilos"
+                    android:textAlignment="center"
+                    android:textColor="#f60"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvresultarrobas"
+                    android:textAlignment="center"
+                    android:textColor="#f60"
+                    android:textSize="25sp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="proyecto.sugarapp.Inicio"
+    android:background="@drawable/slider5">
+
+    <include layout="@layout/toolbarimagenes"
+        android:id="@+id/toolbarinicio">
+
+    </include>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/toolbarinicio">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:id="@+id/conimg"
+                android:background="@drawable/slider1"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contelogo"
+                    android:background="@drawable/fondobienvenida">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logosugarapp2"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="0dp"
+                        android:id="@+id/imglogin"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bienve"
+                        android:textSize="35sp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:id="@+id/tvbienvenido"
+                        android:textColor="#986c32"
+                        android:textStyle="bold"
+                        android:shadowColor="#d2d775"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="25"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+
+
+
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/contenimg"
+                    android:background="@drawable/slider1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/slider1"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/slider2"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/slider3"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/slider4"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/slider5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+
+                </ViewFlipper>
+
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:background="#9a7bb68e"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/conimg">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/culti"
+            android:id="@+id/btncultivo"
+            android:padding="3dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/fondoboton2"
+            android:textAllCaps="false"
+            android:layout_marginRight="0dp"
+            android:shadowColor="#ccc"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/produc"
+            android:id="@+id/btnproductos"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/fondoboton"
+            android:textAllCaps="false"
+            android:layout_marginRight="0dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/servicios"
+            android:id="@+id/btncontacto"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/fondoboton"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@+id/linearLayout2"
+                android:background="@drawable/fondobienvenida2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="@string/tprin"
+                android:layout_below="@+id/linearLayout2"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:id="@+id/descri"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:shadowColor="#dcdec8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="25"/>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

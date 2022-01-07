@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">SugarApp</string>
+    <string name="title_activity_cultivo">Cultivo </string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulocultivo">Cultivo</string>
+    <string name="tituloimg1">Adecuacion del Terreno</string>
+    <string name="title_activity_ensallando">Ensallando</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_inicio_productos">InicioProductos</string>
+    <string name="tituloinicioproductos">Productos de Caña</string>
+    <string name="title_activity_proconsu_humano">ProconsuHumano</string>
+    <string name="tituloconsumohumano">Consumo Humano</string>
+    <string name="volver">Volver</string>
+
+
+    <string name="button">Cultivo</string>
+    <string name="button1">Producto</string>
+    <string name="button2">Contactos</string>
+    <string name="siembra"><center>Lo primero que se hace antes de empezar a sembrar el cultivo es la adecuación del terreno, que consiste en el descombre y la ruma, que es la eliminación de árboles, cercos y construcciones que posteriormente son trasladados hacia un lugar previamente determinado.</center></string>
+    <string name="siembra1">Una vez adecuado el terreno, se hace la preparación del suelo que consiste en desmenuzar el suelo y el subsuelo haciendo acequias donde se va a colocar cada semilla para facilitar el enraizamiento del cultivo</string>
+    <string name="siembra2">La semilla se saca cortando tallos de la caña teniendo en cuenta que no haya perdido el embrión  y que no esté biche ni muy madura; luego se procede a colocar cada tallo en las acequias previamente hechas a una profundidad de 5 centímetros y posteriormente se tapa  teniendo en cuenta que en los terrenos empinados se siembra el trozo verticalmente mientras que en los terrenos planos se siembra horizontalmente.</string>
+    <string name="manejo">Luego que la semilla ha nacido se le hace el volcamiento y se le aplica fertilizantes para el aprovechamiento del cultivo.
+    Se hace el control de plagas y enfermedades aplicando productos químicos como insecticidas mediante la fumigación, haciendo así la prevención y control de las diferentes plagas que afectan el cultivo</string>
+    <string name="manejo1"></string>
+    <string name="recoleccion">El proceso de recolección se realiza cuando el cultivo llega a su madurez; para esta labor se consiguen personas la cual se le llaman corteros, quienes son los que cumplen la función de cortar la caña, ripiarla y amontonarla para posteriormente ser llevada a la enramada </string>
+
+    <string name="guarapo">Guarapo</string>
+    <string name="proelaboracion">Proceso de Elaboración</string>
+    <string name="blanqueado">Blanqueado</string>
+    <string name="caramelo">Caramelo</string>
+    <string name="panela">Panela</string>
+    <string name="tituloproh">Producto para el consumo Humano</string>
+    <string name="textoinicial">Obtenga información sobre los productos derivados de la caña de azúcar y su cultivo</string>
+
+
+    <!-- proceso de elaboracion de productos y su descripcion -->
+    <string name="guarapo1">1.Se corta la caña.</string>
+    <string name="descripcionguara1">Se elige una cuchilla, que este afilada, grande, se corta la caña de azúcar cerca al suelo.</string>
+    <string name="guarapo2">2.Se selecciona la caña sana.</string>
+    <string name="descripcionguara3">Se revisa la caña y se observa si esta en un buen estado, y si se encuentra muy gruesa la caña de divide de forma vertical. </string>
+    <string name="guarapo3">3.Se apila.</string>
+    <string name="descripcionguara2">Una vez revisada la caña, se coloca toda en un lugar, para que así sea más fácil de llevar al trapiche</string>
+    <string name="guarapo4">4.Se lleva al trapiche.</string>
+    <string name="descripcionguara4">Este Proceso se saca el jugo de la caña</string>
+    <string name="guarapo5">5. Sale el guarapo.</string>
+    <string name="descripcionguara5">Se recibe en un recipiente se cuela y lo podemos consumir frio y con limón</string>
+
+
+    <string name="miel">Miel</string>
+    <string name="miel1">1. Se prende la hornilla. </string>
+    <string name="descripcionmiel1">Esta se pone a calentar mientras se hace el proceso del guarapo, para tener todo listo, cuando salga el guarapo.</string>
+    <string name="miel2">2. Se  deposita el guarapo a la paila.</string>
+    <string name="descripcionmiel2">Cunado sale el jugo del trapiche, se lleva en baldes a la paila caliente .</string>
+    <string name="miel3">3. Se evaporiza. </string>
+    <string name="descripcion3">se empieza a calentar el guarapo.</string>
+    <string name="miel4">4.Aplicar cadillo</string>
+    <string name="descripcionmiel4">El cadillo que se le aplica al guarapo es la cascara del árbol como tal, esta se golpea con una mazeta para que suelte sumo de ella,
+        después se lleva un balde con agua y se empieza a lavar para que vote la sustancia, que es algo  babosa, depues se echa a la paila para qiue ayude a subir  la cachaza.  </string>
+    <string name="miel5">5. Se retira la cachaza. </string>
+    <string name="descripcionmiel5">una vez este caleinte, ella empieza a subir la basura o el mugre  y se retira </string>
+    <string name="miel6">6. Se saca 5 minutos antes de que de  punto.</string>
+    <string name="descripcionmiel6">se espera aproximadamente 4 horas </string>
+    <string name="miel7">7. Se recibe en una recipiente o Se empaca en  una  botella, una vez que este fria..</string>
+    <string name="tituloabono">Abonos</string>
+    <string name="recol">Recolección del cultivo de Caña</string>
+    <string name="tipro">Productos de Caña de Azúcar para el Consumo Humano</string>
+
+    <string name="blanqueado1">1. Se espera el punto</string>
+    <string name="descripcionblan1">Es momento preciso de sacar lo que se va a utilizar para preparar</string>
+    <string name="blanqueado2"> 2.  Sacarla.</string>
+    <string name="descripcion2">Empezar a revolver  en un recipiente una sustancia pegajosa,
+          hasta que quede blanca, si se desea aplicarle un poco de aguardiente, al gusto.</string>
+    <string name="blanqueado3">3. Deleita  tu paladar con un delicioso trozo de blanqueado,
+            lo puedes  acompañar con otro trozo ya bien sea de cuajada o de quesillo.
+    </string>
+
+
+    <string name="panela1">1.Se corta la caña.</string>
+    <string name="descripcionpane1">Se elige una cuchilla, que este afilada, grande, se corta la caña de azúcar cerca al suelo.</string>
+    <string name="panela2">2.Se selecciona la caña sana.</string>
+    <string name="descripcionpane2">Se  revisa la caña y se observa si está en un buen estado, y si se encuentra muy gruesa la caña de divide de forma vertical. </string>
+    <string name="panela3">3.Se apila.</string>
+    <string name="descripcionpane3">Una vez revisada la caña, se coloca toda en un lugar, para que así sea más fácil de llevar al trapiche</string>
+    <string name="panela4">4.Se lleva al trapiche.</string>
+    <string name="descripcionpane4">Este Proceso es la extracion del jugo de la caña</string>
+    <string name="panela5">5.Sale el guarapo.</string>
+    <string name="descripcionpanaela5">En este momento, hay un recipiente en la cual recibe el jugo de la caña.</string>
+    <string name="panela6">6.Se  deposita a la paila.</string>
+    <string name="descripcionpane6">Hay que tener en cuenta la hornilla debe estar prendida, para que cuando se vierta el guarapo la paila este caliente.  </string>
+    <string name="panela7">7. Comienza a evaporizar.</string>
+    <string name="descripcionpane7">En este  se evaporiza el  agua aumentantado de esta manera la concentración de azucares en los jugos.</string>
+    <string name="panela8">8.Aplicar cadillo</string>
+    <string name="descripcionpane8">El cadillo que se le aplica al guarapo es la cascara del árbol como tal, esta se golpea con una mazeta para que suelte sumo de ella,
+        después se lleva un balde con agua y se empieza a lavar para que vote la sustancia, que es algo  babosa, depues se echa a la paila para que ayude a subir  la cachaza.  </string>
+    <string name="panela9">9.Se retira la cachaza.</string>
+    <string name="descripcionpane9">Se retira los reciduos, una vez que el jugo de la caña este en evaporización, y se vierte en un recipiente de tal manera que se deje el guarapo limpio. </string>
+    <string name="panela10">10.Se espera el punto.</string>
+    <string name="descripcionpane10">Se espera aproximadamente de 4 a 5 horas </string>
+    <string name="panela11">11. Se retira  el punto </string>
+    <string name="descripcionpane11"> se deposita en bateas preferiblemente de acero inoxidable y por acción  de un batido intensivo e intermitente se enfría para el moldeo.</string>
+    <string name="panela12">12.se tiene listo los bloques limpios , para llevar el punto es estos.</string>
+    <string name="descripcionpane12">El modelo se reliza mediante el uso de elementos de madera denominados "Gaveras"</string>
+    <string name="panela13">13.Se deja en reposo.</string>
+    <string name="descripcionpane13">Aproximadamente se deja en este estado de una hora a hora y media.</string>
+    <string name="panela114">14.Se arregla para sacar al comercio.</string>
+
+
+    <string name="caramelo1">1. Se tiene listo los bloques  lo que se va  a utilizar para la panela y se
+        deja en el fondo lo que se va a utilizar para el caramelo</string>
+    <string name="caramelo2">2. Se retira lo que quedo en el fondo</string>
+    <string name="descrpcioncara2">se deposita en una taza con agua se espera a que se repose y lo puedes consumir.</string>
+
+
+    <string name="cachaza">Cachaza</string>
+    <string name="cachaza1">La cachaza es un residuo de del guarapo cuando está en estado de evaporización, una vez que este se saca se deja
+        en reposo y se da de alimentos a los cerdos , caballos y gallinas, se le puede agregar residuos orgánicos.</string>
+
+
+    <string name="abono">Abono</string>
+    <string name="abono1">   En los abonos encontramos la cachaza nuevamente.</string>
+    <string name="abonocachaza">La cachaza : se saca y se mezcla con ceniza, se deja fermentar, una vez este hecho este  paso se
+        aplica a las platas tales como  plátano,  yuca, lulo, etc.</string>
+
+    <string name="abonobagazo">Bagazo</string>
+    <string name="abonobagazo1">Es otro residuo de la caña , que se saca un vez que se pone en el trapiche y se saca el guarapo, este se coloca y se deja fermentar, con cal, y luego se aplica  a los árboles que se desee.
+</string>
+
+
+    <string name="titulogaleria">Galeria de Imágenes</string>
+    <string name="galeriati">Galeria</string>
+    <string name="informacion">Información</string>
+    <string name="titulogale">Galeria</string>
+    <string name="clic">Click Aquí</string>
+    <string name="culti">Cultivo</string>
+    <string name="produc">Productos</string>
+    <string name="servicios">Servicios</string>
+    <string name="tprin">App para el Cultivo de Caña de Azúcar y sus Productos</string>
+    <string name="contactenos">Contáctenos</string>
+    <string name="tituloinfor">Información</string>
+    <string name="programadores">Programadores</string>
+    <string name="titulobaseinicio">Registro</string>
+    <string name="tituloguardar">Nueva Molienda</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="consultar">Consultar</string>
+    <string name="primero">Primero</string>
+    <string name="ultimo">Ultimo</string>
+    <string name="tituloconsul">Consultar</string>
+    <string name="modificar">Modificar</string>
+    <string name="nummolienda">Número de Molienda</string>
+    <string name="tituloeditar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="tituloeliminar">Eliminar</string>
+    <string name="fecha">Fecha de molienda</string>
+    <string name="pagoobreros">Pago de Obreros</string>
+    <string name="pagotra">Pago de transporte</string>
+    <string name="cantipa">Cantidad de panela obtenida</string>
+    <string name="valorpa">Valor obtenido por la panela</string>
+    <string name="nummolienda2">Ingrese el número de la molienda</string>
+    <string name="fecha2">Dia/Mes/Año</string>
+    <string name="pagoobreros2">Ingrese el costo de obreros</string>
+    <string name="pagotra2">Ingrese el costo en transporte</string>
+    <string name="cantipa2">Ingrese la cantidad en kilos</string>
+    <string name="valorpa2">Ingrese el valor obtenido por la panela</string>
+    <string name="regismoli">Registro de Moliendas</string>
+    <string name="titulocanticaña">¿Desea saber cuanta caña necesita para una determinada cantidad de panela?</string>
+    <string name="clicgale">Ir a Galería</string>
+    <string name="titulobase">¿Desea registrar molienda?</string>
+    <string name="titulomaservi">Mas servicios</string>
+    <string name="titulocalca">Calculo</string>
+    <string name="titulocontactenos">Contáctenos</string>
+    <string name="version">Versión 1.0</string>
+    <string name="inicio">Inicio</string>
+    <string name="salir">Salir</string>
+    <string name="siembrecana">Siembra del cultivo de Caña</string>
+    <string name="manejocultivo">Manejo del cultivo de Caña</string>
+    <string name="producderivados">Productos Derivados de la Caña</string>
+    <string name="mensajecalculo">A continuación debes seleccionar una de las dos opciones para ingresar la cantidad de panela que deseas obtener en kilos o en arrobas</string>
+    <string name="cantikilos">Ingresar cantidad por Kilos</string>
+    <string name="cantiarrobas">Ingresar cantidad por arrobas</string>
+    <string name="ingrekilos">Ingresar kilos de Panela a obtener</string>
+    <string name="calcular">Calcular</string>
+    <string name="cantiarr">Ingresar arrobas de Panela a obtener</string>
+    <string name="tcanca">Cantidad de Caña que necesitas</string>
+    <string name="titulobconsuanimal">Producto para el Consumo Animal</string>
+    <string name="clicana">Calcular\nClick Aquí</string>
+    <string name="baseclic">Base de Datos\nClick aquí</string>
+    <string name="cachaza2">Cachaza</string>
+    <string name="clicimg">Haz Cilck sobre la imagen pequeña</string>
+    <string name="descalcusiembra">Calcular cuántos tallos de caña necesita para sembrar en una determinada extensión de tierra, o cuanta extención de tierra  para una determinada cantidad de tallos</string>
+    <string name="descal1">Si eliges esta opción podrás calcular cuántos tallos necesitas según los metros cuadrados que ingreses</string>
+    <string name="descal2">Con esta opción podrás saber la extensión de tierra que necesitas para la cantidad de tallos que ingreses</string>
+    <string name="cantitallos">Ingresar cantidad de tallos</string>
+    <string name="extete">Ingresar extensión de tierra en metros cuadrados</string>
+    <string name="ingrt">Ingrese la extensión de tierra\nen metros cuadrados</string>
+    <string name="ingretall">Ingresar cantidad de tallos a sembrar</string>
+    <string name="cantital">Cantidad de tallos que necesita</string>
+    <string name="esteti">Extensión de tierra que necesita</string>
+
+    <string name="siembra3">Se siembra a una distancia de 1 metro entre matas por 1.5 metros entre surcos; en cada acequia se siembran 2 tallos de 30 centímetros de largo</string>
+    <string name="my_text">Mensaje</string>
+
+
+    <string name="no">No</string>
+    <string name="si">Si</string>
+    <string name="salirapli">¿Desea salir de la aplicación?</string>
+    <string name="deslice">Deslice hacia la izquierda para ver más imágenes</string>
+    <string name="clicezquina">Haz Clic en la esquina superior izquierda</string>
+    <string name="arroba">Arrobas</string>
+    <string name="ingrek">Debe ingresar los Kilos</string>
+    <string name="ingrea">Debe ingresar las arrobas</string>
+    <string name="ingrem">Debe ingresar los metros</string>
+    <string name="mtroscua"> Metros Cuadrados</string>
+    <string name="hecta"> Hectareas</string>
+    <string name="ingret">Deve ingresar los tallos</string>
+    <string name="infecha">Ingrese la fecha</string>
+    <string name="inobre">Debe ingresar el costo de obreros</string>
+    <string name="intra">Debe ingresar el costo de transporte</string>
+    <string name="canob">Debe ingresar la cantidad obtenida</string>
+    <string name="inva">Debe ingresar el valor obtenido</string>
+    <string name="guamo">Se guardaron los datos de la molienda</string>
+    <string name="nre">Tienes un nuevo registro en la base de datos</string>
+    <string name="nolim">No hay datos para limpiar</string>
+    <string name="saligau">¿Desea salir sin guardar molienda?</string>
+    <string name="inmoli">Ingreso de Molienda</string>
+    <string name="siem">Siembra</string>
+    <string name="manecul">Manejo del Cultivo</string>
+    <string name="reco">Recolección</string>
+    <string name="noexmo">No existe molienda con este número</string>
+    <string name="debeinmo">Debe ingresar un número de molienda</string>
+    <string name="nomolire">No hay molienda registrada</string>
+    <string name="primerre">Este es el primer registro</string>
+    <string name="nomasre">No tienes mas registros</string>
+    <string name="modidatos">Se modificaron los datos</string>
+    <string name="hazmo">Haz modificado un registro en la base de datos</string>
+    <string name="elimo">¿Seguro que desea eliminar molienda?</string>
+    <string name="borromoli">Se borro la molienda con este número</string>
+    <string name="elire">Haz eliminado un registro de la base de datos</string>
+    <string name="elimina">Eliminar</string>
+    <string name="cance">Cancelar</string>
+    <string name="consuh">Consumo Humano</string>
+    <string name="consua">Consumo Animal</string>
+    <string name="tgure">Guardar registro de moliendas</string>
+    <string name="tconre">Consultar registro</string>
+    <string name="tmore">Modificar registro</string>
+    <string name="telire">Eliminar registro</string>
+    <string name="bienve">Bienvenido</string>
+    <string name="base">Base de datos</string>
+    <string name="calcusiem">Calcular Siembra de Caña</string>
+    <string name="calcucanpa">Calcular cantidad de panela</string>
+
+
+    <string name="tituloweb">Página Web</string>
+    <string name="innum">Debe ingresar el numero de molienda</string>
+    <string name="imgsiembra">Siembra de Caña</string>
+    <string name="imgculticana">Cultivo de Caña</string>
+    <string name="imgmancul">Mantenimiento del Cultivo</string>
+    <string name="imgrecocana">Recoleccion de Caña</string>
+    <string name="imgmolicana">Moliendo la Caña</string>
+    <string name="bagazo">Bagazo</string>
+    <string name="imgmielca">Miel de Caña</string>
+    <string name="imgcachaca">Cachaza, alimento para las gallinas</string>
+    <string name="imgbagaca">Bagazo, abono para el cultivo</string>
+
+    <string name="prode">Proyecto desarrollado en la finca</string>
+    <string name="porve">El porvenir</string>
+    <string name="ubica">Ubicación</string>
+    <string name="vereli">Vereda El Lívano</string>
+    <string name="propi">Propietario</string>
+    <string name="masinfo">Para más información visite nuestra página web</string>
+    <string name="teximg">Imágenes del Cultivo de caña y sus productos</string>
+    <string name="subadecua">Adecuación del terreno</string>
+    <string name="prepasue">Preparación del suelo</string>
+    <string name="siemmm">Siembra</string>
+    <string name="proca">Productos de caña para el consumo Humano</string>
+    <string name="tsel">Elegir el idioma en que desea ver la aplicación</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="espa">Español\nSpanish</string>
+    <string name="ingles">Inglés\nEnglish</string>
+    <string name="title_activity_email_lorena">EmailLorena</string>
+
+
+    <string name="asunto">Escriba el Asunto</string>
+    <string name="mensaje">Escriba su Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="enviarcorreo">Enviar Correo...</string>
+    <string name="escrimen">Escriba el Mensaje</string>
+    <string name="escriasu">Escriba el Asunto</string>
+    <string name="salirsinmen">¿Desea cancelar el mensaje?</string>
+    <string name="nocli">No hay ningun cliente de correo instalado.</string>
+    <string name="paweb">Pagina Web</string>
+    <string name="masinfor">Más información</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="tituloubica">Ubicación</string>
+    <string name="ubicac">Ubicacion</string>
+    <string name="manualuse">Manual de Usuario</string>
+    <string name="selectfec">Seleccionar Fecha</string>
+    <string name="tituloinicio">Inicio</string>
+    <string name="esss">Español</string>
+    <string name="innnn">Ingles</string>
+    <string name="yaexis">El numero de molienda ya existe\nIngrese otro número de molienda</string>
+    <string name="pedir">Debe ingresar datos</string>
+    <string name="tituloidioma">Idioma</string>
+    <string name="idio">Idioma</string>
+
+
+</resources>
+

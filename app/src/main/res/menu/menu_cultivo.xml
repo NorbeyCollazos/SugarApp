@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="proyecto.sugarapp.Cultivo">
+
+    <item
+        android:id="@+id/inicio"
+        android:orderInCategory="100"
+        android:title="@string/inicio"
+        android:icon="@drawable/ic_inicio"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="200"
+        android:title="@string/salir"
+        android:icon="@drawable/ic_exit"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+
+</menu>

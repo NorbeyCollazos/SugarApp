@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/guarapo"
+            android:icon="@drawable/iconoguarapodra"
+            android:title="@string/guarapo" />
+
+
+
+        <item
+            android:id="@+id/miel"
+            android:icon="@drawable/iconmieldrawer"
+            android:title="@string/miel" />
+
+
+        <item
+            android:id="@+id/blanqueado"
+            android:icon="@drawable/iconblancdrawer"
+            android:title="@string/blanqueado" />
+
+
+        <item
+            android:id="@+id/caramelo"
+            android:icon="@drawable/iconcaradrawer"
+            android:title="@string/caramelo" />
+
+        <item
+            android:id="@+id/panela"
+            android:icon="@drawable/iconpanedrawer"
+            android:title="@string/panela" />
+    </group>
+
+    <item android:title="@string/masinfor">
+        <menu>
+
+            <item
+                android:id="@+id/web"
+                android:icon="@drawable/iconweb"
+                android:title="@string/paweb" />
+
+        </menu>
+    </item>
+
+</menu>

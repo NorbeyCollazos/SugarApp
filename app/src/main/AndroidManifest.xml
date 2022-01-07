@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ncrdesarrollo.sugarapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PantallaInicial"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Actividad del cultivo -->
+        <activity
+            android:name=".Cultivo"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+
+        <!-- Imagen adecuacion del terreno del cultivo -->
+        <activity
+            android:name=".ImagenCultivo1"
+            android:parentActivityName=".Cultivo"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cultivo" />
+        </activity>
+
+        <!-- Inicio de productos -->
+        <activity
+            android:name=".ProconsuHumano"
+            android:label="@string/title_activity_proconsu_humano"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- inicio de lista de productos -->
+        <activity
+            android:name=".EntradaProductos"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+
+        <!-- seccion de informacio del proyecto -->
+        <activity
+            android:name=".Informacion"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- producto para el consumo humano guarapo -->
+        <activity
+            android:name=".Guarapo"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- producto para el consumo humano miel -->
+        <activity
+            android:name=".Miel"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- producto para el consumo humano blanqueado -->
+        <activity
+            android:name=".Blanqueado"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- producto para el consumo humano caramelo -->
+        <activity
+            android:name=".Caramelo"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- producto para el consumo humano panela -->
+        <activity
+            android:name=".Ppanela"
+            android:parentActivityName=".ProconsuHumano"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProconsuHumano" />
+        </activity>
+
+        <!-- actividad contenedora de abonos -->
+        <activity
+            android:name=".Abonos"
+            android:parentActivityName=".EntradaProductos"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaProductos" />
+        </activity>
+
+        <!-- actividad contenedora de galeria de imagenes -->
+        <activity
+            android:name=".Galeria"
+            android:parentActivityName=".EntradaServicios"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaServicios" />
+        </activity>
+
+        <!-- actividad contenedora de inicio de mas servicios -->
+
+
+        <!-- actividad contenedora de inicio de base de datos -->
+        <activity
+            android:name=".InicioDB"
+            android:parentActivityName=".EntradaServicios"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaServicios" />
+        </activity>
+        <activity
+            android:name=".GuardarDatos"
+            android:parentActivityName=".InicioDB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioDB" />
+        </activity>
+        <activity
+            android:name=".ConsultarDatos"
+            android:parentActivityName=".InicioDB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioDB" />
+        </activity>
+        <activity
+            android:name=".EditarDatos"
+            android:parentActivityName=".InicioDB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioDB" />
+        </activity>
+        <activity
+            android:name=".EliminarDatos"
+            android:parentActivityName=".InicioDB"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioDB" />
+        </activity>
+        <!-- /////////////////////////////////////////////////////////// -->
+
+
+        <!-- actividad contenedora de calculo de caÃ±a -->
+        <activity
+            android:name=".CalculoCana"
+            android:parentActivityName=".EntradaServicios"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaServicios" />
+        </activity>
+
+        <!-- actividad contenedora de contÃ¡ctenos -->
+        <activity
+            android:name=".Contactenos"
+            android:parentActivityName=".Cultivo"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cultivo" />
+        </activity>
+
+        <!-- actividad contenedora de consumo animal -->
+        <activity
+            android:name=".CachazaConsuanimal"
+            android:parentActivityName=".EntradaProductos"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaProductos" />
+        </activity>
+
+        <!-- actividad contenedora de calculo de siembra de caÃ±a -->
+        <activity
+            android:name=".CalcuSiembracana"
+            android:parentActivityName=".EntradaProductos"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntradaProductos" />
+        </activity>
+        <activity
+            android:name=".EntradaServicios"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".PaginaWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ubicacion"
+            android:parentActivityName=".Cultivo"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cultivo" />
+        </activity>
+        <activity
+            android:name=".Manual"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".Idioma"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity android:name=".Mapa"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+    </application>
+
+</manifest>

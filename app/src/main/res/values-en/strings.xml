@@ -1,0 +1,323 @@
+<resources>
+    <string name="app_name">SugarApp</string>
+    <string name="title_activity_cultivo">crop </string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulocultivo">Crop </string>
+    <string name="tituloimg1">Land Adecuacion</string>
+    <string name="title_activity_ensallando">Rehearsing</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_inicio_productos">Home Products</string>
+    <string name="tituloinicioproductos">Cane Products</string>
+    <string name="title_activity_proconsu_humano">Human proconsul</string>
+    <string name="tituloconsumohumano">Human consumption</string>
+    <string name="volver">Return</string>
+
+
+    <string name="button">Crop</string>
+    <string name="button1">Product</string>
+    <string name="button2">Contactos</string>
+    <string name="siembra">The first thing to do before you start planting the
+        crop is the adequacy of the land, which consists descombre and the pile ,
+        which is the removal of trees, fences and buildings are subsequently
+        transferred to a predetermined place.</string>
+    <string name="siembra1">Once a suitable terrain, soil preparation consisting
+        crumble the soil and subsoil by ditches where it will place each seed to
+        facilitate rooting culture is </string>
+    <string name="siembra2">The seed is removed by cutting pieces of cane
+        considering that has not lost the embryo and is not biche not very
+        mature ; then proceed to place each piece in the ditches previously
+        made at a depth of 5 cm and then top considering that in hilly terrain
+        is planted the piece vertically while the flat land is planted horizontally.</string>
+    <string name="manejo">After the seed is born it is made overturning and applies a fertilizer for crop use . control of pests and diseases by applying chemicals such as insecticides by spraying , thus making the prevention and control of various pests affecting the crop is </string>
+    <string name="manejo1"></string>
+    <string name="recoleccion">Ahe process of harvesting when the crop reaches maturity ; for this work which people call it cane cutters , who are those who fulfill the function of cutting the cane , ripiarla and pile it up later to be taken to the bower are achieved  </string>
+
+    <string name="guarapo">Guarapo</string>
+    <string name="proelaboracion">Elaboration process </string>
+    <string name="blanqueado">Bleached </string>
+    <string name="caramelo">Candy </string>
+    <string name="panela">Panela</string>
+    <string name="tituloproh">Product for human consumption </string>
+    <string name="textoinicial">Learn about the products derived from sugar cane cultivation </string>
+
+
+    <!-- proceso de elaboracion de productos y su descripcion -->
+    <string name="guarapo1">1.The cane is cut.</string>
+    <string name="descripcionguara1">Ablade is chosen , this sharp , large sugar cane is cut close to the ground .</string>
+    <string name="guarapo2">2.The healthy cane is selected.</string>
+    <string name="descripcionguara3">Reed is reviewed and observed this in a good condition, and if the cane vertically divided is very thick. </string>
+    <string name="guarapo3">3.It stacks.</string>
+    <string name="descripcionguara2">Once the cane, all placed in one place, so that it easier to bring the sugar mill</string>
+    <string name="guarapo4">4.It takes the trapiche.</string>
+    <string name="descripcionguara4">In this process the cane juice is removed</string>
+    <string name="guarapo5">5. Exit guarapo.</string>
+    <string name="descripcionguara5">It is received in a container sneaks and we can eat cold and lemon</string>
+
+
+    <string name="miel">Honey</string>
+    <string name="miel1">1. The burner is turned. </string>
+    <string name="descripcionmiel1">This is set to heat the juice while the process is done, to get everything ready, when you leave the juice.</string>
+    <string name="miel2">2.The juice is deposited to paila.</string>
+    <string name="descripcionmiel2"> When you get the juice of the sugar mill, it is carried in buckets to the hot pan.</string>
+    <string name="miel3">3. Evaporate. </string>
+    <string name="descripcion3">It starts to heat the guarapo.</string>
+    <string name="miel4">4. Apply cadillo</string>
+    <string name="descripcionmiel4">Cocklebur that applies to guarapo is the shell of the tree as such, this is hit with a Mazeta to release most of it,
+         then a bucket of water takes and begins to wash the substance to vote, which is something slimy, depues takes to the pan coater to help raise qiue cachaza.  </string>
+    <string name="miel5">5. He retired the cachaza </string>
+    <string name="descripcionmiel5">Once this hot, she starts up the garbage or filth and removed</string>
+    <string name="miel6">6. It takes 5 minutes before the point.</string>
+    <string name="descripcionmiel6">Expected about 4 hours </string>
+    <string name="miel7">7. It is received in a container or Packaged in a bottle, once this cold.</string>
+    <string name="tituloabono">Fertilizers</string>
+    <string name="recol">Cane harvesting crop</string>
+    <string name="tipro">Sugar Cane Products for Human Consumption</string>
+
+    <string name="blanqueado1">1. The point is expected</string>
+    <string name="descripcionblan1">We need time to take it to be used to prepare.</string>
+    <string name="blanqueado2"> 2.Her out.</string>
+    <string name="descripcion2">Begin to stir in a container a sticky substance,
+           until it is white, if you want to apply a little brandy to taste.</string>
+    <string name="blanqueado3">3. Delight your palate with a delicious piece of bleached,
+             you can accompany with another piece and either curd or cheese.
+    </string>
+
+
+    <string name="panela1">1.The cane is cut.</string>
+    <string name="descripcionpane1">A blade is chosen, this sharp, large sugar cane is cut close to the ground.</string>
+    <string name="panela2">2.The lemongrass is selected.</string>
+    <string name="descripcionpane2">Reed is reviewed and observed is in a good condition, and if the cane vertically divided is very thick. </string>
+    <string name="panela3">3.It stacks.</string>
+    <string name="descripcionpane3">Once the cane, all placed in one place, so that it easier to bring the sugar mill.</string>
+    <string name="panela4">4.It takes the trapiche</string>
+    <string name="descripcionpane4">This process is the extraction of cane juice.</string>
+    <string name="panela5">5.Out the juice.</string>
+    <string name="descripcionpanaela5">At this time, there is a container which receives the cane juice.</string>
+    <string name="panela6">6.It is deposited to paila</string>
+    <string name="descripcionpane6">Must take into account The burner must be turned on, so that when the stack pour the juice is hot. </string>
+    <string name="panela7">7. Begins to evaporate</string>
+    <string name="descripcionpane7">In this the aumentantado water this way the concentration of sugars in the juice evaporates.</string>
+    <string name="panela8">8.Apply cadillo</string>
+    <string name="descripcionpane8">Cocklebur that applies to guarapo is the shell of the tree as such, this is hit with a Mazeta to release most of it,
+         then a bucket of water takes and begins to wash the substance to vote, which is something slimy, depues the pan is cast to help up the cachaza.</string>
+    <string name="panela9">9.He retired the cachaza</string>
+    <string name="descripcionpane9">Waste is removed, once the cane juice in this evaporation, and poured into a container so that the juice is left clean.</string>
+    <string name="panela10">10.The point is expected.</string>
+    <string name="descripcionpane10"> The point is expected</string>
+    <string name="panela11">11. The point is removed</string>
+    <string name="descripcionpane11"> It is deposited in rafts preferably stainless steel and churning action and intermittent intensive cooling for molding.</string>
+    <string name="panela12">12.Have ready the clean blocks, to bring the point is this.</string>
+    <string name="descripcionpane12">The model is performed by using wooden elements called "Gaveras".</string>
+    <string name="panela13">13.It is left in rest.</string>
+    <string name="descripcionpane13">Approximately left in this state for an hour and a half.</string>
+    <string name="panela114">14.It manages to make trade.</string>
+
+
+    <string name="caramelo1">1.You have ready the blocks which will be used for panela and
+         leaves in the background which is to be used for candy </string>
+    <string name="caramelo2">2. He removed what was left in the background.</string>
+    <string name="descrpcioncara2">Is deposited in a cup of water is expected to be repossessed and you can consume..</string>
+
+
+    <string name="cachaza">Cachaza</string>
+    <string name="cachaza1">The cachaza is a residue of the juice when in state of evaporation, once this is removed is left
+         at rest and food is given to pigs, horses and chickens, you can add organic waste.</string>
+
+
+    <string name="abono">Fertilizer</string>
+    <string name="abono1">   Found in fertilizers cachaza again.</string>
+    <string name="abonocachaza">The cachaza: is removed and mixed with ash, left to ferment, once this done this step applies to silvers such as banana, cassava, lulo, etc.</string>
+
+    <string name="abonobagazo">Chaff</string>
+    <string name="abonobagazo1">It is another cane residue, which takes a time that is put into the mill and the juice is removed, it is placed and allowed to ferment, with lime, and then applied to the trees you want.</string>
+
+
+    <string name="titulogaleria">Image gallery</string>
+    <string name="galeriati">Gallery</string>
+    <string name="informacion">Information</string>
+    <string name="titulogale">Gallery</string>
+    <string name="clic">Click here</string>
+    <string name="culti">Crop</string>
+    <string name="produc">Products</string>
+    <string name="servicios">Services</string>
+    <string name="tprin">App for sugarcane cultivation and its Products</string>
+    <string name="contactenos">Contact Us</string>
+    <string name="tituloinfor">Information</string>
+    <string name="programadores">Programmers</string>
+    <string name="titulobaseinicio">Registry</string>
+    <string name="tituloguardar">Grinding New</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="cancelar">Cancel</string>
+    <string name="consultar">Consult</string>
+    <string name="primero">First</string>
+    <string name="ultimo">Latest</string>
+    <string name="tituloconsul">Consult</string>
+    <string name="modificar">Modify</string>
+    <string name="nummolienda">Number Milling</string>
+    <string name="tituloeditar">Modify</string>
+    <string name="eliminar">Remove</string>
+    <string name="tituloeliminar">Remove</string>
+    <string name="fecha">Grinding date</string>
+    <string name="pagoobreros">Pay Workers</string>
+    <string name="pagotra">Payment transport</string>
+    <string name="cantipa">Number of panela obtained</string>
+    <string name="valorpa">Value obtained by the panela</string>
+    <string name="nummolienda2">Enter the number of grinding</string>
+    <string name="fecha2">Day/Month/Year</string>
+    <string name="pagoobreros2">Enter the cost of workers</string>
+    <string name="pagotra2">Enter the transport cost</string>
+    <string name="cantipa2">Enter the number of panela in kilos</string>
+    <string name="valorpa2">Enter the value obtained by the panela</string>
+    <string name="regismoli">Registration Moliendas</string>
+    <string name="titulocanticaña">You want to know how much cane needed for a given amount of panela?</string>
+    <string name="clicgale">Go to Gallery</string>
+    <string name="titulobase">Do you want to register grinding?</string>
+    <string name="titulomaservi">More services</string>
+    <string name="titulocalca">Calculation</string>
+    <string name="titulocontactenos">Contact Us</string>
+    <string name="version">Version 1.0</string>
+    <string name="inicio">Start</string>
+    <string name="salir">Exit</string>
+    <string name="siembrecana">Sugarcane crop planting</string>
+    <string name="manejocultivo">Sugarcane crop management</string>
+    <string name="producderivados">Products Derivatives Cane </string>
+    <string name="mensajecalculo">Then you must select one of two options to enter the number of panela you want to get in kilos or pounds.</string>
+    <string name="cantikilos">Enter amount Kilos</string>
+    <string name="cantiarrobas">Enter amount arrobas</string>
+    <string name="ingrekilos">Login kilos of Panela to get</string>
+    <string name="calcular">Calculate</string>
+    <string name="cantiarr">Login pounds of Panela to get</string>
+    <string name="tcanca">Cane amount you need</string>
+    <string name="titulobconsuanimal">Product for Animal Consumptionl</string>
+    <string name="clicana">Calculate \nClick Here</string>
+    <string name="baseclic">Database \nClick here</string>
+    <string name="cachaza2">Cachaza</string>
+    <string name="clicimg">Click the small image</string>
+    <string name="descalcusiembra">Calculate how many cane stalks need to plant in a given area of land, or how much extención of land for a certain amount of stems.</string>
+    <string name="descal1">If you choose this option you can calculate how many stems you need as you enter the square meters.</string>
+    <string name="descal2">With this option you will know how much land you need for the number of stems to enter.</string>
+    <string name="cantitallos">Enter number of stems</string>
+    <string name="extete">Login land area  in square meters</string>
+    <string name="ingrt">Enter the amount of land \ in square meters</string>
+    <string name="ingretall">Enter amount of plant stems</string>
+    <string name="cantital">Number of stems you needed</string>
+    <string name="esteti">Amount of land needed</string>
+
+    <string name="siembra3">It is planted at a distance of 1 meter by 1.5 meters bushes between rows; 2 stalks in each ditch 30 centimeters long are planted.</string>
+    <string name="my_text">Message</string>
+
+
+    <string name="no">Not</string>
+    <string name="si">Yes</string>
+    <string name="salirapli">Do you want to leave the application?</string>
+    <string name="deslice">Slip toward the left to see more images</string>
+    <string name="clicezquina">Make Click in the left superior corner</string>
+    <string name="arroba"> Pounds</string>
+    <string name="ingrek">It should enter the Kilos</string>
+    <string name="ingrea">You must enter the at</string>
+    <string name="ingrem">You must enter meters</string>
+    <string name="mtroscua">Square meters</string>
+    <string name="hecta">Hectares</string>
+    <string name="ingret">You must enter the stems</string>
+    <string name="infecha">Enter the date</string>
+    <string name="inobre">You must enter the cost of workers</string>
+    <string name="intra">You must enter the transportation cost</string>
+    <string name="canob">You must enter the amount obtained</string>
+    <string name="inva">You must enter the value obtained</string>
+    <string name="guamo">data stored milling</string>
+    <string name="nre">You have a new record in the database</string>
+    <string name="nolim">No items to clean</string>
+    <string name="saligau">Do you want to exit without saving grinding?</string>
+    <string name="inmoli">Income Molienda</string>
+    <string name="siem">Sowing</string>
+    <string name="manecul">Crop Management</string>
+    <string name="reco">Harvest</string>
+    <string name="noexmo"> There is no grinding with this number</string>
+    <string name="debeinmo">You must enter a number of grinding</string>
+    <string name="nomolire">No grinding registered </string>
+    <string name="primerre">This is the first record</string>
+    <string name="nomasre">You do not have more records</string>
+    <string name="modidatos">Data were modified</string>
+    <string name="hazmo">Make modify a record in the database</string>
+    <string name="elimo">Are you sure you want to remove grinding?</string>
+    <string name="borromoli">milling was erased with this number</string>
+    <string name="elire">You have removed a record in the database</string>
+    <string name="elimina">Remove</string>
+    <string name="cance">Cancel</string>
+    <string name="consuh">Human consumption</string>
+    <string name="consua">Animal consumption</string>
+    <string name="tgure">Save record grindings</string>
+    <string name="tconre">Check registration</string>
+    <string name="tmore">Change entry</string>
+    <string name="telire">Delete record</string>
+    <string name="bienve">Welcome</string>
+
+    <string name="base">Database</string>
+    <string name="calcusiem">Calculate Cane Planting</string>
+    <string name="calcucanpa">Calculate amount of panela</string>
+
+    <string name="tituloweb">Web page</string>
+    <string name="innum">You must enter the number of grinding</string>
+    <string name="imgsiembra">Sugarcane planting</string>
+    <string name="imgculticana">Cane Crop</string>
+    <string name="imgmancul">Culture Maintenance</string>
+    <string name="imgrecocana">Cane Collection</string>
+    <string name="imgmolicana">Cane grinding</string>
+    <string name="bagazo">Chaff</string>
+    <string name="imgmielca">Sugar Cane Honey</string>
+    <string name="imgcachaca">Cachaça, chicken feed</string>
+    <string name="imgbagaca">Bagasse, manure for cultivation</string>
+
+    <string name="prode">Project developed on the farm</string>
+    <string name="porve">El porvenir</string>
+    <string name="ubica">Location</string>
+    <string name="vereli">Vereda El Lívano</string>
+    <string name="propi">Owner</string>
+    <string name="masinfo">For more information visit our web page</string>
+    <string name="teximg">Images cane cultivation and its products</string>
+    <string name="subadecua">Adequacy of the land</string>
+    <string name="prepasue">Soil preparation</string>
+    <string name="siemmm">Sowing</string>
+    <string name="proca">Cane products for human consumption</string>
+
+    <string name="tsel">Choose your language</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="espa">Spanish\nEspañol</string>
+    <string name="ingles">English\nIngles</string>
+    <string name="title_activity_email_lorena">EmailLorena</string>
+
+    <string name="asunto">Write the Matter</string>
+    <string name="mensaje">Write their Message</string>
+    <string name="enviar">Send</string>
+    <string name="enviarcorreo">Send Mail...</string>
+    <string name="escrimen">Write their Message</string>
+    <string name="escriasu">Write the Matter</string>
+    <string name="salirsinmen">Do you want to cancel the message?</string>
+    <string name="nocli">There is not any client of installed mail.</string>
+    <string name="paweb">Web paginates</string>
+    <string name="masinfor">More information</string>
+    <string name="ubicacion">Location</string>
+    <string name="tituloubica">Location</string>
+    <string name="ubicac">Location</string>
+    <string name="manualuse">Manual of User</string>
+    <string name="selectfec">To select Date</string>
+    <string name="tituloinicio">Index</string>
+    <string name="esss">Spanish</string>
+    <string name="innnn">English</string>
+
+    <string name="yaexis">This numbers of mill it already exists\nEnter another mill number</string>
+    <string name="pedir">It should enter data</string>
+    <string name="tituloidioma">Language</string>
+    <string name="idio">Language</string>
+
+
+
+</resources>
+

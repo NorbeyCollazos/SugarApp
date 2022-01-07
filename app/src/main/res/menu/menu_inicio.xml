@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.sugarapp.InicioProductos">
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="@string/informacion"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cont"
+        android:orderInCategory="200"
+        android:title="@string/contactenos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ubicacion"
+        android:orderInCategory="300"
+        android:title="@string/ubicac"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/idioma"
+        android:orderInCategory="400"
+        android:title="@string/idio"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/manual"
+        android:orderInCategory="500"
+        android:title="@string/manualuse"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/sali"
+        android:orderInCategory="600"
+        android:title="@string/salir"
+        android:icon="@drawable/ic_exit"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

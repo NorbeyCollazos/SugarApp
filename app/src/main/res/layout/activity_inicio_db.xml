@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.basedatos.InicioDB"
+    android:background="@drawable/fondo1">
+
+    <include layout="@layout/toolbarimagenes"
+        android:id="@+id/tolbariniciodb">
+
+    </include>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/regismoli"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+    android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+    android:id="@+id/textView"
+        android:shadowColor="#ccc"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="15"
+        android:layout_below="@+id/tolbariniciodb"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentlistview"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_margin="20dp"/>
+</RelativeLayout>
