@@ -3,6 +3,8 @@ Aplicación informativa para el cultivo de caña de azucar y sus productos
 
 Desarrollada usando el IDE Android Studio mediante el lenguaje de programación Java
 
+En esta app se manejó todo lo que tiene que ver con drawables, textos, strings, animaciones, fuentes de texto, traducción al idioma inglés, base de datos SQLite, calculos, galería de imágenes 
+
 ![Imagen](https://github.com/NorbeyCollazos/SugarApp/blob/master/screens/img1.jpg)
 ![Imagen](https://github.com/NorbeyCollazos/SugarApp/blob/master/screens/img2.jpg)
 ![Imagen](https://github.com/NorbeyCollazos/SugarApp/blob/master/screens/img3.jpg)
